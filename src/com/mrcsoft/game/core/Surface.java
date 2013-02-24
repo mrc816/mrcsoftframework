@@ -44,8 +44,11 @@ public class Surface {
 
     public void drawImage(int x, int y, Image image)
     {
-        this.sourceGraphics.drawImage(image, )
+        this.sourceGraphics.drawImage(image, x, y, Color.white, null);
     }
 
-
+    public void drawImage(int x, int y,int width, int height, Image image)
+    {
+        this.sourceGraphics.drawImage(image,x,y,width,height,null);
+    }
 }

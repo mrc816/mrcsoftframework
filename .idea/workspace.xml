@@ -9,7 +9,7 @@
     <file path="/fragment.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361726924210" ignored="false" />
     <file path="/GameLooper.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361725280932" ignored="false" />
     <file path="/GameEngine.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361740436546" ignored="false" />
-    <file path="/Surface.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361741847331" ignored="false" />
+    <file path="/Surface.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361742463248" ignored="false" />
     <file path="/ContentManager.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361740788180" ignored="false" />
     <file path="/Sprite.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361741706266" ignored="false" />
     <file path="/GameResource.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361737721290" ignored="false" />
@@ -18,6 +18,7 @@
     <file path="/GameResourceLoader.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361737388915" ignored="false" />
     <file path="/StaticResourceLoader.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361738125475" ignored="false" />
     <file path="/Dummy.txt" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361741352925" ignored="false" />
+    <file path="/SceneManager.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361742773076" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,15 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameWindow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameLooper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameLooper.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,16 +90,34 @@
       <file leaf-file-name="GameEngine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+            <state line="68" column="15" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Surface.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SceneManager.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/SceneManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="7" selection-start="213" selection-end="213" vertical-scroll-proportion="0.32409012">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scene.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Scene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Surface.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="45" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.7857961">
+            <state line="30" column="41" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/GameLooper.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/com/mrcsoft/game/core/Surface.java" />
         <option value="$PROJECT_DIR$/src/GameWindow.java" />
@@ -193,6 +202,8 @@
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/content/Sprite.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/content/SpriteImage.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java" />
+        <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/Scene.java" />
+        <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/SceneManager.java" />
       </list>
     </option>
   </component>
@@ -265,6 +276,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcsoftframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcsoftframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcsoftframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcsoftframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcsoftframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mrcsoftframework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -275,7 +340,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -380,7 +445,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,16 +456,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49839914" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16275346" sideWeight="0.21913236" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11792956" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67074525" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -465,18 +530,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="15" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_13/src.zip!/java/awt/event/WindowListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.5875217" />
@@ -498,7 +551,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" />
+        <state line="10" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
@@ -522,7 +579,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/content/GameResourceLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="278" selection-end="278" vertical-scroll-proportion="0.36690646" />
+        <state line="12" column="26" selection-start="278" selection-end="278" vertical-scroll-proportion="0.36690646">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/content/GameResource.java">
@@ -535,13 +594,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/content/StaticResourceLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="62" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -564,7 +616,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="45" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.7857961">
+        <state line="30" column="41" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="15" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/SceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="213" selection-end="213" vertical-scroll-proportion="0.32409012">
           <folding />
         </state>
       </provider>
