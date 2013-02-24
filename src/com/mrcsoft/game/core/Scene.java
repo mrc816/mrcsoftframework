@@ -7,7 +7,30 @@ package com.mrcsoft.game.core;
  * Time: 22:52
  * To change this template use File | Settings | File Templates.
  */
-public class Scene {
+public abstract  class Scene {
+
+    private SceneListner sceneListner;
+
+    public void setSceneListner(SceneListner sceneListner)
+    {
+        this.sceneListner = sceneListner;
+    }
+
+    public SceneListner getSceneListner()
+    {
+        return sceneListner;
+    }
+
+    public void update(long time)
+    {
+
+    }
+
+    public void render()
+    {
+
+    }
+
 
 
 

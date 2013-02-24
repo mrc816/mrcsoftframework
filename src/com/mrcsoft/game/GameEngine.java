@@ -1,5 +1,6 @@
 package com.mrcsoft.game;
 
+import com.mrcsoft.game.core.SceneManager;
 import com.mrcsoft.game.core.Surface;
 import com.mrcsoft.game.core.content.ContentManager;
 
@@ -20,6 +21,7 @@ public class GameEngine {
     private GameLooper looper;
     private Surface gameSurface;
     private ContentManager contentManager;
+    private SceneManager sceneManager;
 
     private GameEngine(Frame frame) {
         this.frame = frame;
@@ -29,6 +31,7 @@ public class GameEngine {
 
     private void initialization() {
         graphics = frame.getGraphics();
+        sceneManager = new SceneManager();
         gameSurface = new Surface(frame.getWidth(), frame.getHeight(), graphics);
         looper = new GameLooper();
         looper.start();
@@ -57,6 +60,11 @@ public class GameEngine {
         return graphics;
     }
 
+    public SceneManager getSceneManager()
+    {
+        return  sceneManager;
+    }
+
     public ContentManager getContentManager()
     {
         return  contentManager;
@@ -64,6 +72,7 @@ public class GameEngine {
 
 
     public void update(long frameTime) {
+
 
 
     }
