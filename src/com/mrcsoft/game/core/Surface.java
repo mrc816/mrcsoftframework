@@ -42,5 +42,10 @@ public class Surface {
         this.sourceGraphics.fillRect(0, 0, image.getWidth(), image.getHeight());
     }
 
+    public void drawImage(int x, int y, Image image)
+    {
+        this.sourceGraphics.drawImage(image, )
+    }
+
 
 }

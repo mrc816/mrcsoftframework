@@ -9,9 +9,9 @@
     <file path="/fragment.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361726924210" ignored="false" />
     <file path="/GameLooper.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361725280932" ignored="false" />
     <file path="/GameEngine.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361740436546" ignored="false" />
-    <file path="/Surface.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361726943426" ignored="false" />
+    <file path="/Surface.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361741847331" ignored="false" />
     <file path="/ContentManager.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361740788180" ignored="false" />
-    <file path="/Sprite.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361740824441" ignored="false" />
+    <file path="/Sprite.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361741706266" ignored="false" />
     <file path="/GameResource.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361737721290" ignored="false" />
     <file path="/a.dummy" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361734992543" ignored="false" />
     <file path="/Utils.java" changelist="50a03ce6-5a2b-4393-b5ed-2f23de51f83e" time="1361736472715" ignored="false" />
@@ -89,7 +89,7 @@
       <file leaf-file-name="GameLooper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameLooper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="28" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
+            <state line="69" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,16 +98,16 @@
       <file leaf-file-name="GameEngine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+            <state line="10" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Surface.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Surface.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+            <state line="46" column="45" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.7857961">
               <folding />
             </state>
           </provider>
@@ -134,7 +134,7 @@
       <file leaf-file-name="Utils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="65" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sprite.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/content/Sprite.java">
+      <file leaf-file-name="SpriteImage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/content/SpriteImage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="275" selection-end="275" vertical-scroll-proportion="0.25315005">
+            <state line="30" column="27" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,6 +166,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -181,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/GameWindow.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/Surface.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core.java" />
-        <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/Utils.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/content/GameResourceLoader.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/content/GameResource.java" />
@@ -189,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/GameEngine.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/content/ContentManager.java" />
         <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/content/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/content/SpriteImage.java" />
+        <option value="$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java" />
       </list>
     </option>
   </component>
@@ -258,20 +262,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mrcsoftframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mrcsoftframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mrcsoftframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,12 +484,14 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_13/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="13" selection-start="1742" selection-end="1742" vertical-scroll-proportion="-6.8266897" />
+        <state line="69" column="13" selection-start="1742" selection-end="1742" vertical-scroll-proportion="-6.8266897">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameLooper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="28" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
+        <state line="69" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -516,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_13/src.zip!/java/util/SortedMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="30" selection-start="4800" selection-end="4800" vertical-scroll-proportion="-0.3743501" />
@@ -530,7 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="65" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -556,7 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/GameEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+        <state line="10" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -568,12 +553,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/content/Sprite.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/content/SpriteImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="275" selection-end="275" vertical-scroll-proportion="0.25315005">
+        <state line="30" column="27" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mrcsoft/game/core/Surface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="45" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.7857961">
+          <folding />
         </state>
       </provider>
     </entry>
